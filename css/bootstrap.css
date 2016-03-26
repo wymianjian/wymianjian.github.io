@@ -5020,8 +5020,8 @@ a.thumbnail.active {
   }
 }
 .progress {
-  height: 20px;
-  margin-bottom: 20px;
+  height: 10px;
+  margin-bottom: 13px;
   overflow: hidden;
   background-color: #f5f5f5;
   border-radius: 4px;

@@ -3,11 +3,19 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+.wrap{
+    width:100%;
+    height: 100%;
+    background:rgba(200, 28, 56, 0.1);
+}
 
 body {
+    
+    
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 12px;
     background: url(../images/bg.png);
 }
 
@@ -86,7 +94,7 @@ ul {
 }
 
 .banner p {
-    font-size: 1.3em;
+    font-size: 0.8em;
     color: #999;
     padding: 1em 0;
 }
@@ -129,7 +137,7 @@ ul {
 .navbar-default .navbar-nav > li > a {
     font-family: 'Signika', sans-serif;
     color: rgba(196, 9, 40, 0.92);
-    font-size: 16px;
+    font-size: 12px;
     padding: 0;
 }
 
@@ -204,7 +212,7 @@ ul.nav.navbar-nav {
 
 .header-top {
     background: rgba(196, 9, 40, 0.92);
-    padding: 1em;
+    padding: 0.5em;
 }
 
 
@@ -287,7 +295,7 @@ body #cdawrap {
     line-height: .8;
     overflow: hidden;
     color: rgba(196, 9, 40, 0.78);
-    font-size: 8em;
+    font-size: 3em;
     font-family: 'Signika', sans-serif;
     font-style: italic;
 }
@@ -340,7 +348,7 @@ body #cdawrap {
 
 .skills h3 {
     color: rgb(200, 28, 56);
-    font-size: 35px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 24px;
     margin: 0;
@@ -354,7 +362,7 @@ body #cdawrap {
 .grid_2 h3 {
     text-transform: uppercase;
     color: #A7A9AC;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 4px;
     margin: 0;
@@ -369,7 +377,7 @@ body #cdawrap {
 
 .study2 h4 {
     padding-bottom: 9px;
-    font-size: 1.2em;
+    font-size: 0.8em;
     color: #000;
 }
 
@@ -532,11 +540,11 @@ body #cdawrap {
 .social-icon label {
     color: #F0F0F0;
     font-weight: 500;
-    font-size: 11px;
+    font-size: 9px;
 }
 
 .social-icon label i {
-    font-size: 1.7em;
+    font-size: 1em;
     font-style: normal;
     font-weight: 400
 }
@@ -639,7 +647,7 @@ img.img-responsive.glry-img {
 .body-pic-bottom {
     background: rgb(200, 28, 56);
     width: 100%;
-    height: 270px;
+    height: 60px;
     /*position: absolute;*/
     bottom: -93px;
     z-index: -12;
@@ -659,7 +667,7 @@ img.img-responsive.glry-img {
 .tz-title-3 {
     display: block;
     color: rgb(200, 28, 56);
-    font-size: 35px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 24px;
     margin: 0;
@@ -673,7 +681,7 @@ img.img-responsive.glry-img {
 
 .content_middle_bottom h4 {
     color: #555;
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 1.5em;
     width: 50%;
     margin: 0 auto 3em auto;
@@ -684,7 +692,7 @@ img.img-responsive.glry-img {
 .grid_2 input[type="text"] {
     padding: 15px 0;
     width: 90%;
-    font-size: 1em;
+    font-size: 0.8em;
     margin: 10px 0;
     color: #999;
     background: none;
@@ -758,7 +766,7 @@ img.img-responsive.glry-img {
 
 .portfolio h3 {
     color: rgb(200, 28, 56);
-    font-size: 35px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 24px;
     margin: 0;
@@ -835,7 +843,7 @@ img.img-responsive.glry-img {
         right: -14em;
     }
     .link--ilin {
-        font-size: 5em;
+        font-size: 2.5em;
         color: rgba(196, 9, 40, 0.92);
     }
     .banner {
@@ -923,7 +931,7 @@ img.img-responsive.glry-img {
     }
     .header-btn a {
         padding: 7px 13px;
-        font-size: 15px;
+        font-size: 12px;
     }
     .header-right-text h3 {
         margin: 2px 0 0px;
@@ -941,7 +949,7 @@ img.img-responsive.glry-img {
     }
     .banner p {
         line-height: 1.7em;
-        font-size: .9em;
+        font-size: .6em;
     }
     .body-pic img {
         width: 51%;
@@ -960,7 +968,7 @@ img.img-responsive.glry-img {
         width: 24.4%;
     }
     .social-icon label i {
-        font-size: 1.2em;
+        font-size: 0.8em;
         font-weight: 600;
     }
     .youtube {
@@ -985,7 +993,7 @@ img.img-responsive.glry-img {
         margin-bottom: 2em;
     }
     .copy p {
-        font-size: .9em;
+        font-size: .6em;
         line-height: 1.8em;
     }
 }
@@ -998,8 +1006,8 @@ body-pic,
 
 .container_img {
     margin: 0 auto;
-    width: 22%;
-    height: 420px;
+    width: 18%;
+    height: 380px;
 }
 
 .container_img img {
