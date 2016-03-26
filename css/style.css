@@ -207,7 +207,7 @@ ul.nav.navbar-nav {
 
 .banner {
     text-align: center;
-    padding: 3em 0;
+    padding: 1em 0;
 }
 
 .header-top {
@@ -1007,7 +1007,7 @@ body-pic,
 .container_img {
     margin: 0 auto;
     width: 18%;
-    height: 380px;
+    height: 320px;
 }
 
 .container_img img {
