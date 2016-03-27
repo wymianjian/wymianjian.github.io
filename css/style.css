@@ -216,12 +216,12 @@ ul.nav.navbar-nav {
     text-align: center;
     display: -webkit-flex;
     display: flex;
-    right: -35em;
+    right: -30em;
     width: 60%;
 }
 
 .grid__item p {
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
     color: #777;
 }
